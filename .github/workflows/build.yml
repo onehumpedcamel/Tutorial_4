@@ -6,9 +6,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  my_First_job:
-    name: First job
-    runs-on: ubuntu-latest
+
   build:
 
     runs-on: ubuntu-latest
