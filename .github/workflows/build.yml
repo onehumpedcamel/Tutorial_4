@@ -20,3 +20,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean test
+
+    -name: test subtraction
+      run: assertEquals(2, c.subtract(4,2))
